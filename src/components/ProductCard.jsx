@@ -3,15 +3,13 @@ import './ProductCard.css';
 
 const ProductCard = ({ image, title }) => {
   return (
-    <div className="card product-card">
-      <div className="card-header text-center bg-danger text-white">
-        <h5>{title}</h5>
-      </div>
-      <div className="card-body d-flex flex-column align-items-center">
-        <img src={image} alt={title} className="product-image img-fluid my-3" />
-      </div>
-      <div className="card-footer bg-transparent">
-        <button className="btn btn-danger w-100">Me interesa</button>
+    <div className="card position-relative text-center border-0 shadow-sm mb-4" style={{ borderRadius: '10px' }}>
+      <div className="card-header bg-danger text-white">{title}</div>
+      <img src={image} alt={title} className="w-100 h-100" style={{ borderRadius: '0 0 10px 10px' }} />
+      <div className="position-absolute bottom-0 w-100 p-3">
+        <button className="btn btn-outline-light bg-white w-100">
+          <span className='text-danger'>Me interesa</span>
+        </button>
       </div>
     </div>
   );
