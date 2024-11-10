@@ -7,25 +7,25 @@ const HelpSection = () => {
   const helpItems = [
     {
       title: "Teléfonos de contacto",
-      icon: "phone-icon.png", // Reemplaza con la ruta del icono adecuado
+      icon: "https://www.claro.com.pe/assets/havas/renovacion/ceIco-planes-especiales.svg",
       description: "Para ventas llámanos al 0800 00200 o para información marca 0800 00123",
       button: null
     },
     {
       title: "Centro de ayuda",
-      icon: "help-center-icon.png", // Reemplaza con la ruta del icono adecuado
+      icon: "https://www.claro.com.pe/assets/havas/renovacion/ceIco-mejores-beneficios.svg", 
       description: "Encuentra las soluciones que necesitas en línea y en un solo lugar",
       button: "Ir a Centro de Ayuda"
     },
     {
       title: "Puntos de contacto",
-      icon: "contact-points-icon.png", // Reemplaza con la ruta del icono adecuado
+      icon: "https://www.claro.com.pe/assets/havas/general/1play.png", 
       description: "Conoce todos nuestros canales de atención disponibles",
       button: "Ir a Puntos de contacto"
     },
     {
       title: "Comunidad Claro",
-      icon: "community-icon.png", // Reemplaza con la ruta del icono adecuado
+      icon: "https://www.claro.com.pe/assets/havas/renovacion/ceIco-mejores-beneficios.svg", 
       description: "Comparte experiencias e inquietudes con otros usuarios como tú",
       button: "Ir a Comunidad Claro"
     },
