@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import Header from './components/Header';
+import Navbar from './components/Navbar'
+import CountdownBanner from './components/CountdownBanner';
+import PromoCarousel from './components/PromoCarousel';
+import ActionsSection from './components/ActionsSection';
+import ProductsSection from './components/ProductsSection';
+import PlanCarousel from './components/PlanCarousel';
+import StoreCarousel from './components/StoreCarousel';
+import BlogSection from './components/BlogSection';
+import BenefitsSection from './components/BenefitsSection';
+import ExclusiveBenefits from './components/ExclusiveBenefits';
+import HelpSection from './components/HelpSection';
+import SponsorSection from './components/SponsorSection';
+import InfoCards from './components/InfoCards';
+import FooterLinks from './components/FooterLinks';
+import FooterBottom from './components/FooterBottom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Navbar/>
+      <CountdownBanner/>
+      <PromoCarousel />
+      <ActionsSection />
+      <ProductsSection />
+      <PlanCarousel />
+      <StoreCarousel />
+      <BlogSection />
+      <BenefitsSection />
+      <ExclusiveBenefits />
+      <HelpSection />
+      <SponsorSection />
+      <InfoCards />
+      <FooterLinks />
+      <FooterBottom />
+
+ 
     </div>
   );
 }

@@ -1,0 +1,22 @@
+/* src/components/PromoCarousel.css */
+
+.promo-slide {
+    height: 400px; /* Ajusta la altura según sea necesario */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .promo-slide.bg-image {
+    background-image: url('https://www.claro.com.pe/portal/pe/recursos_contenido/dk-principal-hablandoclaro-blog.webp'); /* Reemplaza con la URL de la imagen de fondo */
+  }
+  
+  .promo-content {
+    background-image: url('https://www.claro.com.pe/portal/pe/recursos_contenido/d-principal+home-iphone16-141024.webp');
+    max-width: 50%;
+    margin-left: 20px;
+  }
+  
+  .service-selector {
+    max-width: 300px;
+  }
+  

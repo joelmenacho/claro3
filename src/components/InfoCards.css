@@ -1,0 +1,19 @@
+/* src/components/InfoCards.css */
+
+.info-cards h5 {
+    color: #333;
+  }
+  
+  .info-cards .text-muted {
+    color: #666;
+  }
+  
+  .info-cards a {
+    color: #d32f2f;
+    text-decoration: none;
+  }
+  
+  .info-cards a:hover {
+    text-decoration: underline;
+  }
+  

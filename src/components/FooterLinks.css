@@ -1,0 +1,22 @@
+/* src/components/FooterLinks.css */
+
+.footer-links {
+    background-color: #222;
+  }
+  
+  .footer-links h6 {
+    color: #ffffff; /* Título en blanco */
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li {
+    color: #ffffff; /* Enlaces en blanco */
+    margin: 5px 0;
+  }
+  
+  .footer-links ul li:hover {
+    color: #ddd; /* Color gris claro al pasar el ratón */
+  }
+  .links{
+    color: #ddd
+  }

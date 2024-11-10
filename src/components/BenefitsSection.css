@@ -1,0 +1,29 @@
+/* src/components/BenefitsSection.css */
+
+.benefits-section {
+    background-color: #333;
+  }
+
+  .benefit-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .text-container h4 {
+    color: #ff4d4f;
+  }
+  
+  .nav-pills .nav-link.active {
+    background-color: #ff4d4f;
+    color: #fff !important;
+  }
+  
+  .nav-pills .nav-link {
+    color: #ccc;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-pills .nav-link:hover {
+    color: #ff4d4f;
+  }
+  

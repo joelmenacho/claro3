@@ -1,0 +1,22 @@
+/* src/components/FooterBottom.css */
+
+.footer-bottom {
+    background-color: #333;
+    color: #ccc;
+    font-size: 0.9rem;
+  }
+  
+  .footer-logo img {
+    height: 40px;
+    vertical-align: middle;
+  }
+  
+  .social-icons i {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .contact-info {
+    color: #ccc;
+  }
+  
