@@ -1,0 +1,20 @@
+.product-card {
+    height: 350px; /* Ajusta la altura de la tarjeta según prefieras */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-image {
+    max-height: 200px; /* Ajusta este valor para cambiar el tamaño de la imagen */
+    width: auto;
+    object-fit: contain; /* Asegura que la imagen mantenga su proporción */
+  }
+  
+  .card-body {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

@@ -8,22 +8,22 @@ const BlogSection = () => {
     {
       category: "APPS",
       title: "¿Conocías estas apps de reciclaje inteligente y tecnología sostenible?",
-      image: "reciclaje.jpg", // Reemplaza con la ruta de la imagen adecuada
+      image: "https://www.claro.com.pe/portal/pe/recursos_contenido/dk-modal-z-telefono-fijo.webp", // Reemplaza con la ruta de la imagen adecuada
     },
     {
       category: "STREAMING",
       title: "¡Atención, fans del cine! Claro video revela las películas que llegarán en noviembre",
-      image: "cine.jpg", // Reemplaza con la ruta de la imagen adecuada
+      image: "https://www.claro.com.pe/portal/pe/recursos_contenido/dk-modal-z-internet-inalambrico.jpg", // Reemplaza con la ruta de la imagen adecuada
     },
     {
       category: "TELECOM TIPS",
       title: "Phishing: otro método de ciber-delincuencia al que debes prestar atención",
-      image: "phishing.jpg", // Reemplaza con la ruta de la imagen adecuada
+      image: "https://www.claro.com.pe/portal/pe/recursos_contenido/dk-modal-z-planes-netflix.jpg", // Reemplaza con la ruta de la imagen adecuada
     },
     {
       category: "SEGURIDAD",
       title: "Ciberataques a través de Bluetooth: ¿es mejor desactivar esta opción en tu celular?",
-      image: "ciberataques.jpg", // Reemplaza con la ruta de la imagen adecuada
+      image: "https://www.claro.com.pe/portal/pe/recursos_contenido/dk-cobertura-internacional-modal-z.webp", // Reemplaza con la ruta de la imagen adecuada
     },
   ];
 

@@ -21,7 +21,7 @@ const PlanCarousel = () => {
                     <p className="text-muted">Velocidad con Full Claro: 300Mbps</p>
                     <p className="text-muted">Velocidad regular: 150Mbps</p>
                     <p className="text-muted">Suscripción: Incluida</p>
-                    <img src="logo.jpg" alt="beneficio" className="w-50 mb-2" /> {/* Sustituye logo.jpg con el logo adecuado */}
+                    <img src="https://www.claro.com.pe/portal/pe/recursos_contenido/paramount_v3.png" alt="beneficio" className="w-50 mb-2" /> {/* Sustituye logo.jpg con el logo adecuado */}
                     <p className="text-muted">Beneficios adicionales: Claro Club</p>
                     <Button variant="outline-danger" className="w-100 mt-3">Solicitar</Button>
                     <a href="/" className="d-block text-center mt-2 text-primary">Conoce más</a>
@@ -34,8 +34,10 @@ const PlanCarousel = () => {
                     <p className="text-muted">Velocidad con Full Claro: 600Mbps</p>
                     <p className="text-muted">Velocidad regular: 300Mbps</p>
                     <p className="text-muted">Suscripción: Incluida</p>
-                    <img src="logo.jpg" alt="beneficio" className="w-50 mb-2" />
+                    <img src="https://www.claro.com.pe/portal/pe/recursos_contenido/paramount_v3.png" alt="beneficio" className="w-50 mb-2" />
                     <p className="text-muted">Beneficios adicionales: Claro Club</p>
+                    <p className="text-muted"> *Aplica para planes contratados del 08.02 al 30.11.24</p>
+
                     <Button variant="outline-danger" className="w-100 mt-3">Solicitar</Button>
                     <a href="/" className="d-block text-center mt-2 text-primary">Conoce más</a>
                   </div>
@@ -47,8 +49,11 @@ const PlanCarousel = () => {
                     <p className="text-muted">Velocidad con Full Claro: 1000Mbps</p>
                     <p className="text-muted">Velocidad regular: 400Mbps</p>
                     <p className="text-muted">Suscripción: Incluida</p>
-                    <img src="logo.jpg" alt="beneficio" className="w-50 mb-2" />
+                    <img src="https://www.claro.com.pe/portal/pe/recursos_contenido/paramount_v3.png" alt="beneficio" className="w-50 mb-2" />
                     <p className="text-muted">Beneficios adicionales: Claro Club</p>
+
+                    <p className="text-muted"> *Aplica para planes contratados del 08.02 al 30.11.24</p>
+
                     <Button variant="outline-danger" className="w-100 mt-3">Solicitar</Button>
                     <a href="/" className="d-block text-center mt-2 text-primary">Conoce más</a>
                   </div>
