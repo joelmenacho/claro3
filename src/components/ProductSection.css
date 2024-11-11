@@ -1,0 +1,11 @@
+/* src/components/Tarjeta.css */
+
+.card-container {
+    height: 350px; /* Ajusta esta altura para aumentar el tamaño de la tarjeta */
+  }
+  
+  .card-image {
+    height: 200px; /* Ajusta esta altura para hacer la imagen más grande */
+    object-fit: cover; /* Ajusta la imagen dentro del espacio asignado sin distorsión */
+  }
+  

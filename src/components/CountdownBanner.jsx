@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import cyberClaroLogo from '../assets/img/cyber.png'; // Asegúrate de ajustar la ruta de la imagen
+import './CountdownBanner.css';
 
 const CountdownBanner = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -44,12 +45,12 @@ const CountdownBanner = () => {
   }, []);
 
   return (
-    <div className="bg-danger text-white d-flex align-items-center justify-content-between p-3">
-      <img src={cyberClaroLogo} alt="Cyber Claro" className="me-4" style={{ height: '50px' }} />
+    <div className="bg-danger text-white d-flex align-items-center justify-content-between sticky-banner">
+      <img src={cyberClaroLogo} alt="Cyber Claro" className="me-3" />
       
       <div className="d-flex flex-column align-items-center text-center">
         <span className="mb-1">Empieza en:</span>
-        <div style={{ fontSize: '2rem', fontWeight: 'bold' }}>
+        <div className="timer">
           <span className="me-2">{timeLeft.days} <small>días</small></span>:
           <span className="me-2">{timeLeft.hours} <small>hrs</small></span>:
           <span className="me-2">{timeLeft.minutes} <small>min</small></span>:
@@ -58,8 +59,8 @@ const CountdownBanner = () => {
       </div>
       
       <div className="d-flex align-items-center">
-        <Button variant="light" className="me-3">Saber más</Button>
-        <button className="btn btn-light rounded-circle" aria-label="Close">
+        <Button variant="light" className="me-2" style={{ padding: '0.25rem 0.5rem', fontSize: '0.8rem' }}>Saber más</Button>
+        <button className="btn btn-light rounded-circle" aria-label="Close" style={{ fontSize: '1rem', padding: '0.25rem' }}>
           &times;
         </button>
       </div>

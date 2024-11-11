@@ -1,10 +1,10 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button, } from 'react-bootstrap';
 import LogoClaro from '../assets/img/claro.svg';
 
 export default function ClaroNavbar() {
   return (
-    <Navbar bg="danger" variant="dark" expand="lg" className="px-3">
+  <Navbar bg="danger" variant="dark" expand="lg" className="px-3 sticky-top">
       <Navbar.Brand href="#home">
         <img
           src={LogoClaro}

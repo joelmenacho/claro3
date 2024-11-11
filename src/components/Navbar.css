@@ -1,0 +1,15 @@
+/* ClaroNavbar.css */
+.sticky-navbar {
+    position: sticky;
+    top: 50px; /* Espacio suficiente para que quede debajo del CountdownBanner */
+    z-index: 1020; /* Debajo del CountdownBanner pero sobre otros elementos de la página */
+  }
+
+
+/* ClaroNavbar.css
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+  }
+   */

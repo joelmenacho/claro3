@@ -1,0 +1,28 @@
+/* CountdownBanner.css */
+.sticky-banner {
+    position: sticky;
+    top: 0; /* Para que esté en la parte superior */
+    z-index: 1030; /* Asegúrate de que tenga un alto valor para que esté sobre otros elementos */
+    padding: 0.5rem 1rem;
+    height: 50px;
+    font-size: 0.9rem;
+  }
+
+
+/* 
+.sticky-banner {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    padding: 0.5rem 1rem;
+    height: 50px; 
+    font-size: 0.9rem; 
+  }
+  .sticky-banner img {
+    height: 30px; 
+  }
+  .sticky-banner .timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+   */
